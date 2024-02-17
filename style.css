@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#hero{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 35px 40px;
+    color: white;
+}
+
+#nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#heading{
+    margin-top: 90px;
+}
+
+#heading h1{
+    margin-left: 40px;
+    opacity: .6;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 10.42vw;
+    line-height: 9.13vw;
+    letter-spacing: 1px;
+}
+
+#heading #secondh1{
+    margin-left: 15vw ;
+}
+
+.blocktext{
+    width: fit-content;
+}
+
+.blocktext h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.chhottiHeading{
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+.chhottiHeading h5{
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1rem;
+    line-height: 34px;
+}
+
+.heroFooter{
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    padding: 0 2.9vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.heroFooter a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.iconSet{
+    display: flex;
+    gap: 3px;
+}
+
+.heroFooter .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #e5e7ebb5;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 13px;
+}
+.second{
+    color: white;
+    padding-right: 10vw;
+    padding-top: 150px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.elem{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+.elem h1{
+    opacity: .6;
+    text-transform: uppercase;
+    font-size: 6vw;
+}
+.elemLast{
+    border-bottom: 1px solid #888;
+}
+
+.elem img{
+    display: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+}
+
+.about{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    /* padding: 5vw 5vw; */
+    padding-left: 40vw;
+    width: 100%;   
+    background-color: black; 
+}
+
+.about img{
+    width: 200px;
+}
